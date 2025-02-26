@@ -8,7 +8,7 @@ void main() {
           decoration: const BoxDecoration(
               gradient: LinearGradient(
                 colors: [
-                   Color.fromARGB(255, 24, 211, 193),
+                   Color.fromARGB(255, 26, 210, 191),
                    Color.fromARGB(255, 9, 211, 73),
             ],
             begin: Alignment.topLeft, 
@@ -28,4 +28,8 @@ void main() {
       ),
     ),
   );
+}
+
+class NihadsContainer extends StatelessWidget{
+  
 }
