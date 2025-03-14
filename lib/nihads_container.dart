@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_teze/styled_text.dart';
 
 class NihadsContainer extends StatelessWidget {
   const  NihadsContainer({super.key});
@@ -9,20 +10,13 @@ Widget build(context) {
               gradient: LinearGradient(
                 colors: [
                    Color.fromARGB(255, 24, 189, 112),
-                   Color.fromARGB(255, 9, 211, 73),
+                   Color.fromARGB(255, 255, 255, 255),
             ],
             begin: Alignment.topLeft, 
             end: Alignment.bottomRight
           )),
           child: const Center(
-            child: Text('Hello World',
-            style: TextStyle(color:Colors.purpleAccent,
-            fontSize: 40
-            
-            )
-            
-            
-            )
+            child: StyledText()
           ),
         ) ;
 }
