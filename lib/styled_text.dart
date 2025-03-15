@@ -12,3 +12,4 @@ class StyledText extends StatelessWidget {
     ); 
   }
 }
+const WidgetInspector(AboutListTile)
