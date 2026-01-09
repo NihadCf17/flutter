@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_teze/styled_text.dart';
 
+const startAligment = Alignment.topLeft;
+const endAligment = Alignment.bottomRight;
+
 class GradientContainer extends StatelessWidget {
   const GradientContainer({super.key});
   
@@ -11,15 +14,15 @@ class GradientContainer extends StatelessWidget {
           decoration: const BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                const Color.fromARGB(255, 193, 199, 8),
-                const Color.fromARGB(255, 55, 14, 179)
+                 Color.fromARGB(255, 193, 199, 8),
+                 Color.fromARGB(255, 55, 14, 179)
               ],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight
+              begin: startAligment,
+              end: endAligment,
             )
           ),
           child: const Center(
-            child: StyledText()
+            child: StyledText('Nihad')
           ),
         );
   }
